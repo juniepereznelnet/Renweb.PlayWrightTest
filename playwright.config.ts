@@ -1,7 +1,7 @@
 import { defineConfig, devices } from '@playwright/test';
 
 const config: PlaywrightTestConfig = {
-  testMatch: ["tests/recorded.test.ts"],
+  testMatch: ["tests/basicInteractions.test.ts"],
   use: {
     headless: true,
     screenshot: "only-on-failure",
@@ -11,7 +11,7 @@ const config: PlaywrightTestConfig = {
   reporter: [["dot"], ["json", {
     outputFile: "jsonReports/jsonReport.json"
   }], ["html", {
-    open: "never "
+    open: "always"
   }]],
 };
 
