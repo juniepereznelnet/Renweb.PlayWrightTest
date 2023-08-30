@@ -1,7 +1,7 @@
 import { PlaywrightTestConfig, defineConfig, devices } from '@playwright/test';
 
 const config: PlaywrightTestConfig = {
-  testMatch: ["tests/dropdown.test.ts"],
+  testMatch: ["tests/windows.test.ts"],
   use: {
     headless: false,
     screenshot: "on", //only-on-failure
