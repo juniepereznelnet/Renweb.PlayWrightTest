@@ -1,7 +1,7 @@
 {
   "config": {
-    "configFile": "C:\\Renweb.PlayWrightTest\\playwright.config.ts",
-    "rootDir": "C:/Renweb.PlayWrightTest",
+    "configFile": "c:\\Renweb.PlayWrightTest\\playwright.config.ts",
+    "rootDir": "c:/Renweb.PlayWrightTest",
     "forbidOnly": false,
     "fullyParallel": false,
     "globalSetup": null,
@@ -12,7 +12,7 @@
     "maxFailures": 0,
     "metadata": {
       "actualWorkers": 1,
-      "totalTime": 32008.841
+      "totalTime": 9218.386999999999
     },
     "preserveOutput": "always",
     "reporter": [
@@ -40,15 +40,15 @@
     "quiet": false,
     "projects": [
       {
-        "outputDir": "C:/Renweb.PlayWrightTest/test-results",
+        "outputDir": "c:/Renweb.PlayWrightTest/test-results",
         "repeatEach": 1,
         "retries": 0,
         "id": "",
         "name": "",
-        "testDir": "C:/Renweb.PlayWrightTest",
+        "testDir": "c:/Renweb.PlayWrightTest",
         "testIgnore": [],
         "testMatch": [
-          "tests/basicInteractions.test.ts"
+          "tests/dropdown.test.ts"
         ],
         "timeout": 30000
       }
@@ -61,13 +61,13 @@
   },
   "suites": [
     {
-      "title": "tests\\basicInteractions.test.ts",
-      "file": "tests/basicInteractions.test.ts",
+      "title": "tests\\dropdown.test.ts",
+      "file": "tests/dropdown.test.ts",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "Interaction with inputs",
+          "title": "Bootstrap Dropdown",
           "ok": true,
           "tags": [],
           "tests": [
@@ -81,100 +81,33 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 14735,
-                  "errors": [],
-                  "stdout": [
-                    {
-                      "text": "Please enter your Message\n"
-                    },
-                    {
-                      "text": "Before entering data: \n"
-                    },
-                    {
-                      "text": "After entering data: Hi Junie\n"
-                    }
-                  ],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2023-08-29T10:29:31.465Z",
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "e8550347d925177e1da7-ebe51f05769581288d0d",
-          "file": "tests/basicInteractions.test.ts",
-          "line": 3,
-          "column": 5
-        },
-        {
-          "title": "Sum",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "status": "passed",
-                  "duration": 8167,
-                  "errors": [],
-                  "stdout": [
-                    {
-                      "text": "300\n"
-                    }
-                  ],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2023-08-29T10:29:47.434Z",
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "e8550347d925177e1da7-618e3c7a58363122d32b",
-          "file": "tests/basicInteractions.test.ts",
-          "line": 16,
-          "column": 5
-        },
-        {
-          "title": "Checkbox",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "status": "passed",
-                  "duration": 7360,
+                  "duration": 8481,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2023-08-29T10:29:55.603Z",
-                  "attachments": []
+                  "startTime": "2023-08-30T03:10:40.055Z",
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "c:\\Renweb.PlayWrightTest\\test-results\\tests-dropdown-Bootstrap-Dropdown\\video.webm"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "c:\\Renweb.PlayWrightTest\\test-results\\tests-dropdown-Bootstrap-Dropdown\\test-finished-1.png"
+                    }
+                  ]
                 }
               ],
               "status": "expected"
             }
           ],
-          "id": "e8550347d925177e1da7-b5051c99a4b7f4242181",
-          "file": "tests/basicInteractions.test.ts",
-          "line": 39,
-          "column": 5
+          "id": "6a3d7e996dd4874286aa-352c4902800accdb1763",
+          "file": "tests/dropdown.test.ts",
+          "line": 31,
+          "column": 6
         }
       ]
     }

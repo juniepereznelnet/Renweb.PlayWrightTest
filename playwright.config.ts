@@ -1,11 +1,14 @@
-import { defineConfig, devices } from '@playwright/test';
+import { PlaywrightTestConfig, defineConfig, devices } from '@playwright/test';
 
 const config: PlaywrightTestConfig = {
-  testMatch: ["tests/basicInteractions.test.ts"],
+  testMatch: ["tests/dropdown.test.ts"],
   use: {
-    headless: true,
-    screenshot: "only-on-failure",
-    video: "retain-on-failure"
+    headless: false,
+    screenshot: "on", //only-on-failure
+    video: "on", //retain-on-failure
+    launchOptions: {
+      slowMo: 1000
+    }
   },
   retries: 0,
   reporter: [["dot"], ["json", {
