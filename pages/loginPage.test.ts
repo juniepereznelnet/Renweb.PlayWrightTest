@@ -1,21 +1,29 @@
-import { Page, expect, test } from "@playwright/test";
+import { Page } from "@playwright/test";
 
 export default class LoginPage {
 
-    constructor(public page: Page) {
-
-    }
+    constructor(public page: Page) { }
 
     async enterEmail(emailValue: string) {
-        await this.page.locator("input[name='email']").type(emailValue);
+        await this.page.locator("#input-email").type(emailValue);
     }
+
     async enterPassword(passwordValue: string) {
-        await this.page.locator("input[name='password']").type(passwordValue);
+        await this.page.locator("#input-password").type(passwordValue);
     }
- 
+
     async clickLoginBtn() {
-        await this.page.click("input[value='Login']");
-    }    
+        await Promise.all([
+            this.page.waitForNavigation(),
+            this.page.click("//input[@class='btn btn-primary']")
+        ])
+    }
+
+    async proceedLogin(emailValue: string, passwordValue: string) {
+        await this.enterEmail(emailValue);
+        await this.enterPassword(passwordValue);
+        await this.clickLoginBtn();
+    }
 
 
     //test("Handling alerts", async ({ page }) => {

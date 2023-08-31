@@ -12,7 +12,7 @@
     "maxFailures": 0,
     "metadata": {
       "actualWorkers": 1,
-      "totalTime": 10669.247000000001
+      "totalTime": 25291.904000000002
     },
     "preserveOutput": "always",
     "reporter": [
@@ -48,7 +48,7 @@
         "testDir": "C:/Renweb.PlayWrightTest",
         "testIgnore": [],
         "testMatch": [
-          "tests/uploadDownload.test.ts"
+          "pomtest/addToCart.test.ts"
         ],
         "timeout": 30000
       }
@@ -61,143 +61,148 @@
   },
   "suites": [
     {
-      "title": "tests\\uploadDownload.test.ts",
-      "file": "tests/uploadDownload.test.ts",
+      "title": "pomtest\\addToCart.test.ts",
+      "file": "pomtest/addToCart.test.ts",
       "column": 0,
       "line": 0,
-      "specs": [
+      "specs": [],
+      "suites": [
         {
-          "title": "Download files",
-          "ok": true,
-          "tags": [],
-          "tests": [
+          "title": "Page object test demo",
+          "file": "pomtest/addToCart.test.ts",
+          "line": 15,
+          "column": 6,
+          "specs": [
             {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
-              "results": [
+              "title": "Register test_01",
+              "ok": true,
+              "tags": [],
+              "tests": [
                 {
-                  "workerIndex": 0,
-                  "status": "passed",
-                  "duration": 3412,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2023-08-31T00:16:18.587Z",
-                  "attachments": [
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
                     {
-                      "name": "video",
-                      "contentType": "video/webm",
-                      "path": "C:\\Renweb.PlayWrightTest\\test-results\\tests-uploadDownload-Download-files\\video.webm"
-                    },
-                    {
-                      "name": "screenshot",
-                      "contentType": "image/png",
-                      "path": "C:\\Renweb.PlayWrightTest\\test-results\\tests-uploadDownload-Download-files\\test-finished-1.png"
-                    }
-                  ]
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "bff505410ff9353f2355-f656baf58696ef99ab06",
-          "file": "tests/uploadDownload.test.ts",
-          "line": 3,
-          "column": 5
-        },
-        {
-          "title": "Upload files",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "status": "passed",
-                  "duration": 3204,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2023-08-31T00:16:22.485Z",
-                  "attachments": [
-                    {
-                      "name": "video",
-                      "contentType": "video/webm",
-                      "path": "C:\\Renweb.PlayWrightTest\\test-results\\tests-uploadDownload-Upload-files\\video.webm"
-                    },
-                    {
-                      "name": "screenshot",
-                      "contentType": "image/png",
-                      "path": "C:\\Renweb.PlayWrightTest\\test-results\\tests-uploadDownload-Upload-files\\test-finished-1.png"
-                    }
-                  ]
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "bff505410ff9353f2355-f633d1ef960e0b51938a",
-          "file": "tests/uploadDownload.test.ts",
-          "line": 26,
-          "column": 5
-        },
-        {
-          "title": "Upload files hidden",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "status": "passed",
-                  "duration": 3100,
-                  "errors": [],
-                  "stdout": [
-                    {
-                      "text": "\u001b[33mtrue\u001b[39m\n"
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 9321,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-08-31T11:08:14.348Z",
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Renweb.PlayWrightTest\\test-results\\pomtest-addToCart-Page-object-test-demo-Register-test-01\\video.webm"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Renweb.PlayWrightTest\\test-results\\pomtest-addToCart-Page-object-test-demo-Register-test-01\\test-finished-1.png"
+                        }
+                      ]
                     }
                   ],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2023-08-31T00:16:25.690Z",
-                  "attachments": [
-                    {
-                      "name": "video",
-                      "contentType": "video/webm",
-                      "path": "C:\\Renweb.PlayWrightTest\\test-results\\tests-uploadDownload-Upload-files-hidden\\video.webm"
-                    },
-                    {
-                      "name": "screenshot",
-                      "contentType": "image/png",
-                      "path": "C:\\Renweb.PlayWrightTest\\test-results\\tests-uploadDownload-Upload-files-hidden\\test-finished-1.png"
-                    }
-                  ]
+                  "status": "expected"
                 }
               ],
-              "status": "expected"
+              "id": "1c188a18f2ecab048a02-86642b9810edb653b306",
+              "file": "pomtest/addToCart.test.ts",
+              "line": 16,
+              "column": 9
+            },
+            {
+              "title": "Login test_02",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 6420,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-08-31T11:08:23.921Z",
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Renweb.PlayWrightTest\\test-results\\pomtest-addToCart-Page-object-test-demo-Login-test-02\\video.webm"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Renweb.PlayWrightTest\\test-results\\pomtest-addToCart-Page-object-test-demo-Login-test-02\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "1c188a18f2ecab048a02-a0eaf758cc1037d32d65",
+              "file": "pomtest/addToCart.test.ts",
+              "line": 30,
+              "column": 9
+            },
+            {
+              "title": "Add to cart test_03",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 8867,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-08-31T11:08:30.343Z",
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Renweb.PlayWrightTest\\test-results\\pomtest-addToCart-Page-object-test-demo-Add-to-cart-test-03\\video.webm"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Renweb.PlayWrightTest\\test-results\\pomtest-addToCart-Page-object-test-demo-Add-to-cart-test-03\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "1c188a18f2ecab048a02-a6dccac7fc9203eebacb",
+              "file": "pomtest/addToCart.test.ts",
+              "line": 42,
+              "column": 9
             }
-          ],
-          "id": "bff505410ff9353f2355-42df7c6850a58d3aa40e",
-          "file": "tests/uploadDownload.test.ts",
-          "line": 36,
-          "column": 5
+          ]
         }
       ]
     }
