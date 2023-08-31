@@ -1,14 +1,14 @@
 import { PlaywrightTestConfig, defineConfig, devices } from '@playwright/test';
 
 const config: PlaywrightTestConfig = {
-  testMatch: ["tests/datepicker.test.ts"],
+  testMatch: ["tests/uploadDownload.test.ts"], //, test/login.test.ts
   use: {
     headless: false,
     screenshot: "on", //only-on-failure
     video: "on", //retain-on-failure
-    //launchOptions: {
-    //  slowMo: 1000
-    //}
+    launchOptions: {
+      //  slowMo: 1000
+    }
   },
   retries: 0,
   reporter: [["dot"], ["json", {
