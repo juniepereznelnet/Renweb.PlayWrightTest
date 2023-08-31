@@ -38,11 +38,11 @@ export default class RegisterPage {
         await this.page.click("input[name=agree]");
     }
 
+    async clickContinueToRegister() {
+        await this.page.click("input[value='Continue']");
+    }    
 
-    test("Handling alerts", async ({ page }) => {
-        await page.goto("https://ecommerce-playground.lambdatest.io/index.php?route=account/register");
-
-
-
-    })
+    //test("Handling alerts", async ({ page }) => {
+    //    await page.goto("https://ecommerce-playground.lambdatest.io/index.php?//route=account/register");
+    //)
 }
