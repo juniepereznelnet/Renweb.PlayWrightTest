@@ -12,7 +12,7 @@
     "maxFailures": 0,
     "metadata": {
       "actualWorkers": 1,
-      "totalTime": 23530.971999999998
+      "totalTime": 5044.448
     },
     "preserveOutput": "always",
     "reporter": [
@@ -43,12 +43,25 @@
         "outputDir": "C:/Renweb.PlayWrightTest/test-results",
         "repeatEach": 1,
         "retries": 0,
-        "id": "",
-        "name": "",
+        "id": "chrome",
+        "name": "chrome",
         "testDir": "C:/Renweb.PlayWrightTest",
         "testIgnore": [],
         "testMatch": [
-          "pomtest/addToCartUsingFixtures.test.ts"
+          "tests/login.test.ts"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/Renweb.PlayWrightTest/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "C:/Renweb.PlayWrightTest",
+        "testIgnore": [],
+        "testMatch": [
+          "tests/login.test.ts"
         ],
         "timeout": 30000
       }
@@ -61,148 +74,42 @@
   },
   "suites": [
     {
-      "title": "pomtest\\addToCartUsingFixtures.test.ts",
-      "file": "pomtest/addToCartUsingFixtures.test.ts",
+      "title": "tests\\login.test.ts",
+      "file": "tests/login.test.ts",
       "column": 0,
       "line": 0,
-      "specs": [],
-      "suites": [
+      "specs": [
         {
-          "title": "Page object test demo",
-          "file": "pomtest/addToCartUsingFixtures.test.ts",
-          "line": 19,
-          "column": 6,
-          "specs": [
+          "title": "Login RenWeb",
+          "ok": true,
+          "tags": [],
+          "tests": [
             {
-              "title": "Register test_01",
-              "ok": true,
-              "tags": [],
-              "tests": [
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chrome",
+              "projectName": "chrome",
+              "results": [
                 {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "",
-                  "projectName": "",
-                  "results": [
-                    {
-                      "workerIndex": 0,
-                      "status": "passed",
-                      "duration": 8025,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2023-09-01T00:24:49.357Z",
-                      "attachments": [
-                        {
-                          "name": "video",
-                          "contentType": "video/webm",
-                          "path": "C:\\Renweb.PlayWrightTest\\test-results\\pomtest-addToCartUsingFixtures-Page-object-test-demo-Register-test-01\\video.webm"
-                        },
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "C:\\Renweb.PlayWrightTest\\test-results\\pomtest-addToCartUsingFixtures-Page-object-test-demo-Register-test-01\\test-finished-1.png"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 4710,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2023-09-01T01:15:59.293Z",
+                  "attachments": []
                 }
               ],
-              "id": "2480db8be252befdcb2b-b2703958b1bc1dcdd775",
-              "file": "pomtest/addToCartUsingFixtures.test.ts",
-              "line": 20,
-              "column": 9
-            },
-            {
-              "title": "Login test_02",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "",
-                  "projectName": "",
-                  "results": [
-                    {
-                      "workerIndex": 0,
-                      "status": "passed",
-                      "duration": 6005,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2023-09-01T00:24:57.678Z",
-                      "attachments": [
-                        {
-                          "name": "video",
-                          "contentType": "video/webm",
-                          "path": "C:\\Renweb.PlayWrightTest\\test-results\\pomtest-addToCartUsingFixtures-Page-object-test-demo-Login-test-02\\video.webm"
-                        },
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "C:\\Renweb.PlayWrightTest\\test-results\\pomtest-addToCartUsingFixtures-Page-object-test-demo-Login-test-02\\test-finished-1.png"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "2480db8be252befdcb2b-9b00f2df373fc32ddcff",
-              "file": "pomtest/addToCartUsingFixtures.test.ts",
-              "line": 34,
-              "column": 9
-            },
-            {
-              "title": "Add to cart test_03",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "",
-                  "projectName": "",
-                  "results": [
-                    {
-                      "workerIndex": 0,
-                      "status": "passed",
-                      "duration": 8725,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2023-09-01T00:25:03.685Z",
-                      "attachments": [
-                        {
-                          "name": "video",
-                          "contentType": "video/webm",
-                          "path": "C:\\Renweb.PlayWrightTest\\test-results\\pomtest-addToCartUsingFixtures-Page-object-test-demo-Add-to-cart-test-03\\video.webm"
-                        },
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "C:\\Renweb.PlayWrightTest\\test-results\\pomtest-addToCartUsingFixtures-Page-object-test-demo-Add-to-cart-test-03\\test-finished-1.png"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "2480db8be252befdcb2b-279a37e20ed9fb2b467d",
-              "file": "pomtest/addToCartUsingFixtures.test.ts",
-              "line": 46,
-              "column": 9
+              "status": "expected"
             }
-          ]
+          ],
+          "id": "ef85df6096d4739f2c52-9521a276455b7c60fce9",
+          "file": "tests/login.test.ts",
+          "line": 4,
+          "column": 5
         }
       ]
     }

@@ -16,6 +16,9 @@ const emailValue = data.email; // "junie.perez02@nelnetphilippines.com";
 const passwordValue = data.password; // "Passwords1."
 const phoneNumberValue = data.phone_number;
 
+//test.use({
+//    browserName: "firefox"
+//});
 test.describe("Page object test demo", async () => {
     test("Register test_01", async ({ page, baseURL, registerPage }) => {
         //const register = new RegisterPage(page);
