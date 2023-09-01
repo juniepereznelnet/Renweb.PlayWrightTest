@@ -12,7 +12,7 @@
     "maxFailures": 0,
     "metadata": {
       "actualWorkers": 1,
-      "totalTime": 25291.904000000002
+      "totalTime": 23530.971999999998
     },
     "preserveOutput": "always",
     "reporter": [
@@ -48,7 +48,7 @@
         "testDir": "C:/Renweb.PlayWrightTest",
         "testIgnore": [],
         "testMatch": [
-          "pomtest/addToCart.test.ts"
+          "pomtest/addToCartUsingFixtures.test.ts"
         ],
         "timeout": 30000
       }
@@ -61,16 +61,16 @@
   },
   "suites": [
     {
-      "title": "pomtest\\addToCart.test.ts",
-      "file": "pomtest/addToCart.test.ts",
+      "title": "pomtest\\addToCartUsingFixtures.test.ts",
+      "file": "pomtest/addToCartUsingFixtures.test.ts",
       "column": 0,
       "line": 0,
       "specs": [],
       "suites": [
         {
           "title": "Page object test demo",
-          "file": "pomtest/addToCart.test.ts",
-          "line": 15,
+          "file": "pomtest/addToCartUsingFixtures.test.ts",
+          "line": 19,
           "column": 6,
           "specs": [
             {
@@ -88,22 +88,22 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 9321,
+                      "duration": 8025,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2023-08-31T11:08:14.348Z",
+                      "startTime": "2023-09-01T00:24:49.357Z",
                       "attachments": [
                         {
                           "name": "video",
                           "contentType": "video/webm",
-                          "path": "C:\\Renweb.PlayWrightTest\\test-results\\pomtest-addToCart-Page-object-test-demo-Register-test-01\\video.webm"
+                          "path": "C:\\Renweb.PlayWrightTest\\test-results\\pomtest-addToCartUsingFixtures-Page-object-test-demo-Register-test-01\\video.webm"
                         },
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "C:\\Renweb.PlayWrightTest\\test-results\\pomtest-addToCart-Page-object-test-demo-Register-test-01\\test-finished-1.png"
+                          "path": "C:\\Renweb.PlayWrightTest\\test-results\\pomtest-addToCartUsingFixtures-Page-object-test-demo-Register-test-01\\test-finished-1.png"
                         }
                       ]
                     }
@@ -111,9 +111,9 @@
                   "status": "expected"
                 }
               ],
-              "id": "1c188a18f2ecab048a02-86642b9810edb653b306",
-              "file": "pomtest/addToCart.test.ts",
-              "line": 16,
+              "id": "2480db8be252befdcb2b-b2703958b1bc1dcdd775",
+              "file": "pomtest/addToCartUsingFixtures.test.ts",
+              "line": 20,
               "column": 9
             },
             {
@@ -131,22 +131,22 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 6420,
+                      "duration": 6005,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2023-08-31T11:08:23.921Z",
+                      "startTime": "2023-09-01T00:24:57.678Z",
                       "attachments": [
                         {
                           "name": "video",
                           "contentType": "video/webm",
-                          "path": "C:\\Renweb.PlayWrightTest\\test-results\\pomtest-addToCart-Page-object-test-demo-Login-test-02\\video.webm"
+                          "path": "C:\\Renweb.PlayWrightTest\\test-results\\pomtest-addToCartUsingFixtures-Page-object-test-demo-Login-test-02\\video.webm"
                         },
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "C:\\Renweb.PlayWrightTest\\test-results\\pomtest-addToCart-Page-object-test-demo-Login-test-02\\test-finished-1.png"
+                          "path": "C:\\Renweb.PlayWrightTest\\test-results\\pomtest-addToCartUsingFixtures-Page-object-test-demo-Login-test-02\\test-finished-1.png"
                         }
                       ]
                     }
@@ -154,9 +154,9 @@
                   "status": "expected"
                 }
               ],
-              "id": "1c188a18f2ecab048a02-a0eaf758cc1037d32d65",
-              "file": "pomtest/addToCart.test.ts",
-              "line": 30,
+              "id": "2480db8be252befdcb2b-9b00f2df373fc32ddcff",
+              "file": "pomtest/addToCartUsingFixtures.test.ts",
+              "line": 34,
               "column": 9
             },
             {
@@ -174,22 +174,22 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 8867,
+                      "duration": 8725,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2023-08-31T11:08:30.343Z",
+                      "startTime": "2023-09-01T00:25:03.685Z",
                       "attachments": [
                         {
                           "name": "video",
                           "contentType": "video/webm",
-                          "path": "C:\\Renweb.PlayWrightTest\\test-results\\pomtest-addToCart-Page-object-test-demo-Add-to-cart-test-03\\video.webm"
+                          "path": "C:\\Renweb.PlayWrightTest\\test-results\\pomtest-addToCartUsingFixtures-Page-object-test-demo-Add-to-cart-test-03\\video.webm"
                         },
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "C:\\Renweb.PlayWrightTest\\test-results\\pomtest-addToCart-Page-object-test-demo-Add-to-cart-test-03\\test-finished-1.png"
+                          "path": "C:\\Renweb.PlayWrightTest\\test-results\\pomtest-addToCartUsingFixtures-Page-object-test-demo-Add-to-cart-test-03\\test-finished-1.png"
                         }
                       ]
                     }
@@ -197,9 +197,9 @@
                   "status": "expected"
                 }
               ],
-              "id": "1c188a18f2ecab048a02-a6dccac7fc9203eebacb",
-              "file": "pomtest/addToCart.test.ts",
-              "line": 42,
+              "id": "2480db8be252befdcb2b-279a37e20ed9fb2b467d",
+              "file": "pomtest/addToCartUsingFixtures.test.ts",
+              "line": 46,
               "column": 9
             }
           ]
